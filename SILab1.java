@@ -6,7 +6,7 @@ public class SILab1 {
     public static List<Integer> filterOddNumbers(List<Integer> list) {
         List<Integer> result = new ArrayList<>();
         for (int i = 0; i < list.size(); i++) {
-        if (list.get(i) % 2 == 0) {
+        if (list.get(i) % 2 == 1) {
             result.add(list.get(i));
         }
     }
