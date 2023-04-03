@@ -1,0 +1,117 @@
+УПОТРЕБУВАНИ ГИТ КОМАНДИ ЛАБ1 171121
+
+5.
+git clone https://github.com/elenatrajkovikj/SI_2023_lab1_171121
+
+6.
+git add README.md
+додавам README.md фајл
+
+git commit -m "Initial commit"
+правам commit со пораката Initial commit
+
+7.
+git add SILab1.java
+додавам SILab1.java фајл
+
+git commit -m "Add java file"
+правам commit со пораката Add java file
+
+8.
+git push origin master
+синхронизација со оддалечениот репозиториум
+
+9.
+git branch bug1
+git branch bug2
+git branch bug3
+
+10.
+git checkout bug1 за префрлување во гранката bug1
+11.
+во фајлот SILab1.java направив промени на for циклусот и сејвнав
+for (int i = 0; i < list.size(); i++) {
+        if (list.get(i) % 2 == 0) {
+            result.add(list.get(i));
+        }
+    }
+
+git status за проверка на промени
+
+git add SILab1.java 
+
+git commit -m "Fix wrong loop for reading"
+
+12.
+git checkout bug2 
+
+13.
+во фајлот SILab1.java направив промени на условот за непарфни броеви и сејвнав
+if (list.get(i) % 2 == 1)
+
+git add SILab1.java
+
+git commit -m "Fix wrong condition in filterOddNumbers"
+
+14.
+git checkout bug3
+
+15.
+во фајлот SILab1.java направив промени во sumEvenNumbers и сејвнав
+int sum = 0; за ако нема ниту еден парен број да не врати методот неточно туку нула
+
+git add SILab1.java
+
+git commit -m "Fix method sumEvenNumbers"
+
+16.
+git push origin master за синхронизација 
+
+17.
+git checkout master
+
+18.
+git merge bug1 спојување на гранката со мастер
+
+19.
+git push origin master синхронизација
+
+20.
+git merge bug2 
+(имав мал проблем но го решив ќе видите во logs)
+
+21.
+git push origin master
+
+22.
+git checkout bug3
+
+23.
+git rebase master
+
+24.
+git checkout master
+
+25.
+git merge bug3
+
+26.
+git push origin master
+
+27.
+git add logs.txt 
+git add 171121.txt
+
+git commit -m "Final commit"
+
+28.
+git push origin master
+
+
+
+
+
+
+
+
+
