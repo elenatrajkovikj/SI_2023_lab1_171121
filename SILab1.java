@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class SILab1 {
     public static List<Integer> filterOddNumbers(List<Integer> list) {
         List<Integer> result = new ArrayList<>();
-        for (Integer el : list) {
-            if (el % 2 == 0) {
-                result.add(el);
-            }
+        for (int i = 0; i < list.size(); i++) {
+        if (list.get(i) % 2 == 0) {
+            result.add(list.get(i));
         }
+    }
         return result;
     }
 
